@@ -1,0 +1,52 @@
+name: moviez_app
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg_provider: ^1.0.3
+  flutter_rating_bar: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/svg/
+    - assets/images/
+
+  fonts:
+    - family: Avenir-Book
+      fonts:
+        - asset: assets/fonts/Avenir-Book.ttf
+
+    - family: Avenir-Black
+      fonts:
+        - asset: assets/fonts/Avenir-Black.ttf
+
+    - family: Avenir-Heavy
+      fonts:
+        - asset: assets/fonts/Avenir-Heavy.ttf
+
+    - family: Avenir-Medium
+      fonts:
+        - asset: assets/fonts/Avenir-Medium.ttf
+
+    - family: Avenir-Roman
+      fonts:
+        - asset: assets/fonts/Avenir-Roman.ttf
